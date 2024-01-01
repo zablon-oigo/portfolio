@@ -1,0 +1,147 @@
+import React from 'react';
+import afya from '../assets/afya.png';
+import { FaGithub } from 'react-icons/fa';
+import { HiArrowRight } from 'react-icons/hi2';
+import blog from '../assets/blog.png';
+import task from '../assets/task.png';
+import sunny from '../assets/sunny.png';
+import vote from '../assets/vote.png';
+import snap from '../assets/snap.png';
+import elimu from '../assets/elimu.png';
+import news from '../assets/news.png';
+import nav from '../assets/nav.png';
+import easybank from '../assets/easybank.png';
+import bowl from '../assets/bowl.png';
+import ticket from '../assets/ticket.png';
+
+const images=[
+    {
+        id:1,
+        title:'React Js Application',
+        name:'Afya Clinic',
+        image:afya
+    },
+    
+    {
+        id:2,
+        title:'Django Web Application',
+        name:'Blog',
+        image:blog
+    },
+    {
+        id:3,
+        title:"Django Web Application",
+        name:'Task Manager',
+        image:task
+    },
+    {
+        id:4,
+        title:'React Js Application',
+        name:'Sunny Langing Page',
+        image:sunny
+    },
+    {
+        id:5,
+        title:'Django Web Application',
+        name:'Vote System',
+        image:vote
+    },
+    {
+        id:6,
+        title:'Django Web Application',
+        name:'Ecommerce App',
+        image:snap
+    },
+    {
+        id:7,
+        title:'React Js Application',
+        name:'Elimu',
+        image:elimu
+    },
+    {
+        id:8,
+        title:'Rect Js Application',
+        name:'News',
+        image:news
+    },
+    {
+        id:9,
+        title:'React Js Application',
+        name:'News Site',
+        image:nav
+    },
+    {
+        id:10,
+        title:'React Js Application',
+        name:'Easy Bank Landing Page',
+        image:easybank
+    },
+    {
+        id:11,
+        title:'React Js Application',
+        name:'Bountiful Landing Page',
+        image:bowl
+    },
+    {
+        id:12,
+        title:'Django Web Application',
+        name:'Ticket Application',
+        image:ticket
+    }
+
+
+]
+
+
+const backgroundImageStyle = {
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+};
+
+function WorkCard() {
+  return (
+    <div className='grid md:grid-cols-2 grid-cols-1 gap-5'>
+      {images.map((img) => (
+        <div
+          key={img.id}
+          style={{
+            ...backgroundImageStyle,
+            backgroundImage: `url(${img.image})`,
+          }}
+          className="w-full h-[300px] mb-10 group hover:scale-105 duration-500 shadow-[0_0_10px_0_rgba(0,0,0,0.2)]"
+        >
+          <div className="opacity-0 group-hover:opacity-100">
+            {img.title && (
+              <div className="flex justify-center items-center bg-gradient-to-r from-teal-500 to-cyan-500 w-full h-[300px]">
+                <div className="text-center my-4">
+                  <h1 className="text-2xl text-white font-semibold">{img.title}</h1>
+                  <h2 className="text-xl text-white">{img.name}</h2>
+                  <div className="pt-8 flex items-center justify-center gap-4">
+                    <a
+                      href="https://github.com/ZablonOigo/afya_clinic"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="hover:bg-teal-500 duration-300 hover:text-white hover:scale-105 px-4 py-3 rounded inline-flex items-center gap-1 bg-white"
+                    >
+                      Code <FaGithub className="text-3xl " />
+                    </a>
+                    <a
+                      href=""
+                      className="px-4 py-3 rounded inline-flex items-center gap-1 bg-white hover:bg-teal-500 duration-300 hover:text-white hover:scale-105"
+                    >
+                      Demo <HiArrowRight className="text-3xl" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+
+export default WorkCard;

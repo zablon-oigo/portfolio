@@ -1,0 +1,34 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import contact from '../assets/rafiki.png'
+function Contact() {
+    useEffect(() => {
+        AOS.init();
+     }, []);
+  return (
+    <div>
+        <div name="contact" className="min-h-screen " data-aos='zoom-in-up'>
+            <div className="max-w-4xl mx-auto">
+                <h2 className="text-5xl md:text-6xl text-center font-bold text-[#ccd6f6] underline underline-offset-8 decoration-4 decoration-pink-600">Contact</h2>
+                <div className="flex justify-center flex-col-reverse md:flex-row items-center gap-4 my-10">
+
+                    <form action="https://getform.io/f/a83e15cb-c283-468a-b1ce-cd06ec6139ec" className="w-full md:w-3/4 " method='post'>
+                        <label htmlFor="name" className="block text-[#8892b0] text-xl mb-2">Name</label>
+                        <input type="text" className="px-6 py-3 rounded w-full" placeholder='' />
+                        <label htmlFor="email" className="block text-[#8892b0] text-xl mb-2">Email</label>
+                        <input type="email" className="px-6 py-3 rounded w-full" placeholder='' />
+                        <label htmlFor="message" className="block text-[#8892b0] text-xl mb-2">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" className="mb-4 px-6 py-3 rounded w-full" placeholder=''></textarea>
+                        <button type="submit" className="bg-teal-600 w-full text-white px-6 py-3 rounded hover:bg-teal-700 ">Let's Talk</button>
+                    </form>
+              
+                </div>
+            </div>
+
+        </div>
+    </div>
+  )
+}
+
+export default Contact
