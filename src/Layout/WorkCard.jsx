@@ -19,74 +19,98 @@ const images=[
         id:1,
         title:'React Js Application',
         name:'Afya Clinic',
-        image:afya
+        image:afya,
+        github:'https://github.com/zablon-oigo/clinic',
+        demo:'https://mellow-selkie-e79d8c.netlify.app/'
     },
     
     {
         id:2,
         title:'Django Web Application',
         name:'Blog',
-        image:blog
+        image:blog,
+        github:'https://github.com/zablon-oigo/blog',
+        demo:'https://blog-app-lpq3.onrender.com/'
     },
     {
         id:3,
         title:"Django Web Application",
         name:'Task Manager',
-        image:task
+        image:task,
+        github:'https://github.com/zablon-oigo/task_manager',
+        demo:'https://task-app-manager-jhp7.onrender.com/'
     },
     {
         id:4,
         title:'React Js Application',
         name:'Sunny Langing Page',
-        image:sunny
+        image:sunny,
+        github:'https://github.com/zablon-oigo/sunnysideLandingPage',
+        demo:'https://super-cocada-24ff5b.netlify.app/'
     },
     {
         id:5,
         title:'Django Web Application',
         name:'Vote System',
-        image:vote
+        image:vote,
+        github:'https://github.com/zablon-oigo/polls_app',
+        demo:'https://polls-app-pwta.onrender.com/'
     },
     {
         id:6,
         title:'Django Web Application',
         name:'Ecommerce App',
-        image:snap
+        image:snap,
+        github:'https://github.com/zablon-oigo/snap_oasis',
+        demo:'https://snap-oasis.onrender.com/'
     },
     {
         id:7,
         title:'React Js Application',
         name:'Elimu',
-        image:elimu
+        image:elimu,
+        github:'https://github.com/zablon-oigo/Elimu',
+        demo:'https://peppy-cheesecake-fbef6c.netlify.app/'
     },
     {
         id:8,
         title:'Rect Js Application',
         name:'News',
-        image:news
+        image:news,
+        github:'https://github.com/zablon-oigo/news_homepage',
+        demo:'https://animated-hotteok-80dc85.netlify.app/'
     },
     {
         id:9,
         title:'React Js Application',
-        name:'News Site',
-        image:nav
+        name:'Landing Page',
+        image:nav,
+        github:'https://github.com/zablon-oigo/landing_page',
+        demo:'https://main--mellow-khapse-de7918.netlify.app/'
     },
     {
         id:10,
         title:'React Js Application',
         name:'Easy Bank Landing Page',
-        image:easybank
+        image:easybank,
+        github:'https://github.com/zablon-oigo/easy_bank_landing_page',
+        demo:'https://ephemeral-dusk-7510f3.netlify.app/'
     },
     {
         id:11,
         title:'React Js Application',
         name:'Bountiful Landing Page',
-        image:bowl
+        image:bowl,
+        github:'https://github.com/zablon-oigo/bites',
+        demo:'https://gleeful-muffin-a75a4e.netlify.app/'
     },
     {
         id:12,
         title:'Django Web Application',
         name:'Ticket Application',
-        image:ticket
+        image:ticket,
+        github:'https://github.com/zablon-oigo/ticket_app',
+        demo:'https://ticket-esd2.onrender.com/'
     }
 
 
@@ -119,7 +143,7 @@ function WorkCard() {
                   <h2 className="text-xl text-white">{img.name}</h2>
                   <div className="pt-8 flex items-center justify-center gap-4">
                     <a
-                      href="https://github.com/ZablonOigo/afya_clinic"
+                      href={img.github}
                       target="_blank"
                       rel="noreferrer"
                       className="hover:bg-teal-500 duration-300 hover:text-white hover:scale-105 px-4 py-3 rounded inline-flex items-center gap-1 bg-white"
@@ -127,7 +151,9 @@ function WorkCard() {
                       Code <FaGithub className="text-3xl " />
                     </a>
                     <a
-                      href=""
+                      href={img.demo}
+                      target="_blank"
+                      rel="noreferrer"
                       className="px-4 py-3 rounded inline-flex items-center gap-1 bg-white hover:bg-teal-500 duration-300 hover:text-white hover:scale-105"
                     >
                       Demo <HiArrowRight className="text-3xl" />
