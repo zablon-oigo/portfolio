@@ -44,7 +44,7 @@ export default function Navbar() {
                         </div>
 
             </div>
-            <section className={`absolute md:hidden left-0 top-[60px] w-full h-screen bg-black flex flex-col  items-center ease-in duration-300 ${menu ? 'left-0' : 'left-[-100%]'}`}>
+            <section className={`absolute md:hidden left-0 top-[60px] w-full h-screen bg-black z-10 flex flex-col  items-center ease-in duration-700 ${menu ? 'left-0' : 'left-[-100%]'}`}>
             <ul className="my-16  space-y-8 font-light text-4xl text-[#ccd6f6]">
                             <li><Link to={'home'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Home</Link></li>
                             <li><Link to={'about'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">About</Link></li>
