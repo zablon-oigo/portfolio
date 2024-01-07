@@ -10,7 +10,7 @@ function Hero() {
  }, []);
   return (
     <>
-    <div name="home" className="min-h-screen  py-10   " data-aos='zoom-in-up'>
+    <div name="home" className="min-h-screen  py-10   " data-aos='zoom-in-up' data-aos-duration="3000">
         <div className="max-w-4xl md:mx-auto mx-4 md:px-4 py-20 flex flex-col justify-center md:items-start items-center md:justify-start h-full">
             <p className="text-pink-600">Hello, My name is</p>
             <h1 className="text-4xl text-center md:text-start sm:text-7xl font-bold text-[#ccd6f6]">Zablon Oigo</h1>

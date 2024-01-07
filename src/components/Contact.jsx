@@ -8,7 +8,7 @@ function Contact() {
      }, []);
   return (
     <div>
-        <div name="contact" className="min-h-screen " data-aos='zoom-in-up'>
+        <div name="contact" className="min-h-screen " data-aos='zoom-in-up' data-aos-duration="3000">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-5xl md:text-6xl text-center font-bold text-[#ccd6f6] underline underline-offset-8 decoration-4 decoration-pink-600">Contact</h2>
                 <div className="flex justify-center flex-col-reverse md:flex-row items-center gap-4 my-10">

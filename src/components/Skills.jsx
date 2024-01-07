@@ -83,7 +83,7 @@ function Skills() {
 
     ]
   return (
-    <div className='w-full min-h-[90vh] ' data-aos="zoom-in-up">
+    <div className='w-full min-h-[90vh] ' data-aos="zoom-in-up" data-aos-duration="3000">
         <div  className="max-w-4xl mx-auto py-20">
             <h2 className="md:text-6xl text-4xl text-center  font-bold text-[#ccd6f6] mb-10 underline decoration-4 underline-offset-8 decoration-pink-600 ">Skills</h2>
             <p className="text-xl font-light text-[#ccd6f6] text-center mt-4 mb-10">These are the technologies I have worked with</p>

@@ -8,7 +8,7 @@ function About() {
  }, []);
 
   return (
-    <div className='w-full min-h-[80vh] ' data-aos="zoom-in-up">
+    <div className='w-full min-h-[80vh] ' data-aos="zoom-in-up" data-aos-duration="3000">
  
      <div className="max-w-4xl md:mx-auto mx-4 ">
      <div className="w-full">

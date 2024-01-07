@@ -13,6 +13,8 @@ import nav from '../assets/nav.png';
 import easybank from '../assets/easybank.png';
 import bowl from '../assets/bowl.png';
 import ticket from '../assets/ticket.png';
+import clean from '../assets/clean.png';
+import cafe from '../assets/cafe.png';
 
 const images=[
     {
@@ -58,11 +60,12 @@ const images=[
     },
     {
         id:6,
-        title:'Django Web Application',
-        name:'Ecommerce App',
-        image:snap,
-        github:'https://github.com/zablon-oigo/snap_oasis',
-        demo:'https://snap-oasis.onrender.com/'
+        title:'React Js Application',
+        name:'Cleaning Services',
+        image:clean,
+        github:'https://github.com/zablon-oigo/cleaning_services',
+        demo:'https://cleaning-services-six.vercel.app/'
+  
     },
     {
         id:7,
@@ -106,11 +109,30 @@ const images=[
     },
     {
         id:12,
+        title:'React Js Application',
+        name:'Coffee Shop',
+        image:cafe,
+        github:'https://github.com/zablon-oigo/cafe',
+        demo:'https://cafe-zeta-tan.vercel.app/'
+  
+    },
+    {
+        id:13,
+        title:'Django Web Application',
+        name:'Ecommerce App',
+        image:snap,
+        github:'https://github.com/zablon-oigo/snap_oasis',
+        demo:'https://snap-oasis.onrender.com/'
+
+    },
+    {
+        id:14,
         title:'Django Web Application',
         name:'Ticket Application',
         image:ticket,
         github:'https://github.com/zablon-oigo/ticket_app',
         demo:'https://ticket-esd2.onrender.com/'
+
     }
 
 
