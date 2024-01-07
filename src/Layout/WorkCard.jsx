@@ -45,10 +45,11 @@ const images=[
     {
         id:4,
         title:'React Js Application',
-        name:'Sunny Langing Page',
-        image:sunny,
-        github:'https://github.com/zablon-oigo/sunnysideLandingPage',
-        demo:'https://super-cocada-24ff5b.netlify.app/'
+        name:'Coffee Shop',
+        image:cafe,
+        github:'https://github.com/zablon-oigo/cafe',
+        demo:'https://cafe-zeta-tan.vercel.app/'
+
     },
     {
         id:5,
@@ -110,10 +111,11 @@ const images=[
     {
         id:12,
         title:'React Js Application',
-        name:'Coffee Shop',
-        image:cafe,
-        github:'https://github.com/zablon-oigo/cafe',
-        demo:'https://cafe-zeta-tan.vercel.app/'
+        name:'Sunny Langing Page',
+        image:sunny,
+        github:'https://github.com/zablon-oigo/sunnysideLandingPage',
+        demo:'https://super-cocada-24ff5b.netlify.app/'
+  
   
     },
     {
