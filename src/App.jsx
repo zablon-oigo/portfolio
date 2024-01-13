@@ -5,6 +5,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
 import Work from "./components/Work"
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
       <div id="footer">
       <Footer/>
       </div>
+      <Analytics />
     </>
   )
 }
