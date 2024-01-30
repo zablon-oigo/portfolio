@@ -61,14 +61,14 @@ export default function Navbar() {
 
             </section>
 
-            <div className="md:block fixed hidden top-[300px]  left-0 ">
-                <div className="w-[160px] h-[60px]  flex flex-col items-center justify-center gap-1">
-                    <a href="https://github.com/zablon-oigo" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-190px] hover:ml-[2px] duration-700 ease-in space-x-2"><span className="text-xl">Github </span><FaGithub className="text-4xl text-white bg-[#333333] px-2 py-1 rounded  "/></a> 
-                    <a href="https://www.linkedin.com/in/zablon-oigo-ba4268234/" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-200px] hover:ml-[2px] duration-700 ease-in space-x-2"><span className="text-xl">LinkedIn </span><BsLinkedin className="text-4xl text-text-white  bg-[#3061AF] px-2 py-1 rounded  "/></a> 
-                    <a href="mailto:zablonoigo51@gmail.com" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-180px] hover:ml-[2px] duration-700 ease-in space-x-2"><span className="text-xl">Email </span><TfiEmail className="text-4xl text-white bg-[#6fc2d0] px-2 py-1 rounded  "/></a> 
-                    <a href="tel:+254715206073" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-200px] hover:ml-[2px] duration-700 ease-in space-x-2"><span className="text-xl">Contact </span><IoMdCall  className="text-4xl text-white bg-[#565656] px-2 py-1 rounded  "/></a> 
+            {/* <div className="md:block  absolute hidden top-[350px] w-[160px] h-[60px]  left-0 ">
+                <div className="  flex flex-col items-center justify-center gap-2">
+                    <a href="https://github.com/zablon-oigo" target="_blank" className="inline-flex w-full items-center  justify-center  ml-[-120px] cursor-pointer hover:ml-[100px] duration-700 ease-in space-x-2"><FaGithub className="text-4xl text-white bg-[#333333] px-2 py-1 rounded  cursor-pointer"/></a> 
+                    <a href="https://www.linkedin.com/in/zablon-oigo-ba4268234/" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-200px] hover:ml-[2px] duration-700 ease-in space-x-2"><BsLinkedin className="text-4xl text-text-white  bg-[#3061AF] px-2 py-1 rounded  "/></a> 
+                    <a href="mailto:zablonoigo51@gmail.com" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-180px] hover:ml-[2px] duration-700 ease-in space-x-2"><TfiEmail className="text-4xl text-white bg-[#6fc2d0] px-2 py-1 rounded  "/></a> 
+                    <a href="tel:+254715206073" target="_blank" className="inline-flex w-full items-center  justify-center ml-[-200px] hover:ml-[100px] duration-700 ease-in space-x-2"><IoMdCall  className="text-4xl text-white bg-[#565656] px-2 py-1 rounded  "/></a> 
                 </div>
-            </div>
+            </div> */}
     </div>
     </>
   )
