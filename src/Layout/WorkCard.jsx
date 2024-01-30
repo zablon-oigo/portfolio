@@ -157,7 +157,7 @@ function WorkCard() {
             ...backgroundImageStyle,
             backgroundImage: `url(${img.image})`,
           }}
-          className="w-full h-[300px] mb-10 group hover:scale-105 duration-500 shadow-[0_0_10px_0_rgba(0,0,0,0.2)]"
+          className="w-full h-[300px] mb-10 group hover:scale-105 duration-700 shadow-[0_0_10px_0_rgba(0,0,0,0.2)]"
         >
           <div className="opacity-0 group-hover:opacity-100">
             {img.title && (
