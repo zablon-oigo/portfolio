@@ -14,43 +14,43 @@ function About() {
      <div className="w-full">
     <h2 className="text-5xl md:text-6xl text-center font-bold inline text-[#ccd6f6] border-b-4 border-pink-600 mb-6">About Me</h2>
     <p className="text-xl text-[#ccd6f6] mt-6 font-light">
-        Hi there! I'm a seasoned web developer with a focus on Django, React, AWS, Docker, Computer Networking, and PostgreSQL. My passion lies in crafting innovative web solutions that seamlessly blend cutting-edge technology with user-centric design.
+        Hi there! I'm a seasoned web developer with expertise in Django, React, AWS, Docker, Computer Networking, and PostgreSQL. My passion is crafting innovative web solutions that blend cutting-edge technology with user-centric design.
     </p>
     <p className="mt-6 text-[#ccd6f6] font-light text-xl space-y-6">
         <p className="">
-        🚀 <span className="text-xl font-semibold">Django & Python Enthusiast:</span> With a wealth of experience in Python and Django, I thrive on architecting robust and scalable backends for web applications. My expertise extends from crafting elegant APIs to integrating complex business logic.
+            🚀 <span className="text-xl font-semibold">Python & Django:</span> Architecting robust and scalable backends, crafting elegant APIs, and integrating complex business logic.
         </p>
 
         <p className="">
-        💡 <span className="text-xl font-semibold">React Frontend Maven:</span> As a proficient React developer, I specialize in building intuitive and responsive user interfaces. I'm adept at creating seamless user experiences that captivate and engage visitors.<br/>
+            💡 <span className="text-xl font-semibold">React Frontend:</span> Specializing in intuitive and responsive user interfaces for captivating user experiences.
         </p>
 
         <p className="">
-        ☁️ <span className="text-xl font-semibold">Cloud Enthusiast:</span> Navigating the cloud is second nature to me. I leverage AWS services to deploy, scale, and secure applications efficiently. From EC2 to S3, I ensure that your applications run smoothly in the cloud.
+            ☁️ <span className="text-xl font-semibold">Cloud:</span> Leveraging AWS services for efficient deployment, scaling, and securing of applications.
         </p>
 
         <p className="">
-        🐳 <span className="text-xl font-semibold">Docker Enabler:</span> I streamline development workflows using Docker, ensuring consistency across different environments. Containerization is a key part of my toolkit for scalable and portable applications.
+            🐳 <span className="text-xl font-semibold">Docker:</span> Streamlining development workflows for consistency across different environments.
         </p>
 
         <p className="">
-        🌐 <span className="text-xl font-semibold">Networking Guru:</span>With a strong background in computer networking, I understand the intricacies of creating robust and secure network architectures. Whether it's setting up VPCs on AWS or optimizing network performance, I've got it covered.
+            🌐 <span className="text-xl font-semibold">Networking:</span> Creating robust and secure network architectures, including setting up VPCs on AWS.
         </p>
 
         <p className="">
-        🐘 <span className="text-xl font-semibold">PostgreSQL Specialist:</span>  I'm well-versed in database design and administration, with a particular focus on PostgreSQL. I design efficient database schemas that ensure data integrity and optimal performance.
+            🐘 <span className="text-xl font-semibold">PostgreSQL:</span> Database design and administration, with a focus on PostgreSQL.
         </p>
 
         <p className="">
-        🤝 <span className="text-xl font-semibold">Collaboration Advocate:</span> I believe in effective communication and collaboration. I enjoy working in dynamic teams and am always open to exchanging ideas to drive project success.
+            🤝 <span className="text-xl font-semibold">Collaboration:</span> Advocating for effective communication and teamwork in dynamic environments.
         </p>
 
         <p className="">
-        📈 <span className="text-xl font-semibold">Continuous Learner:</span> In the ever-evolving landscape of web development, I stay ahead by constantly learning and adapting to new technologies. Keeping up with industry trends ensures that your projects benefit from the latest advancements.
+            📈 <span className="text-xl font-semibold">Continuous Learner:</span> Staying ahead in web development by constantly learning and adapting to new technologies.
         </p>
-
     </p>
 </div>
+
 
             {/*
                     <div className=" w-full">
