@@ -15,24 +15,28 @@ import bowl from '../assets/bowl.png';
 import ticket from '../assets/ticket.png';
 import clean from '../assets/clean.png';
 import cafe from '../assets/cafe.png';
+import pet from '../assets/pet.png'
 
 const images=[
     {
         id:1,
+        title:'React + Docker',
+        name:'Pet Services',
+        image:pet,
+        github:'https://github.com/zablon-oigo/docker-react-app',
+        demo:'https://pet-ruby.vercel.app/'
+
+
+    },
+    
+    {
+        id:2,
         title:'React Js Application',
         name:'Afya Clinic',
         image:afya,
         github:'https://github.com/zablon-oigo/clinic',
         demo:'https://mellow-selkie-e79d8c.netlify.app/'
-    },
-    
-    {
-        id:2,
-        title:'Django Web Application',
-        name:'Blog',
-        image:blog,
-        github:'https://github.com/zablon-oigo/blog',
-        demo:'https://blog-app-lpq3.onrender.com/'
+
     },
     {
         id:3,
@@ -54,10 +58,11 @@ const images=[
     {
         id:5,
         title:'Django Web Application',
-        name:'Vote System',
-        image:vote,
-        github:'https://github.com/zablon-oigo/polls_app',
-        demo:'https://polls-app-pwta.onrender.com/'
+        name:'Blog',
+        image:blog,
+        github:'https://github.com/zablon-oigo/blog',
+        demo:'https://blog-app-lpq3.onrender.com/'
+
     },
     {
         id:6,
@@ -134,6 +139,15 @@ const images=[
         image:ticket,
         github:'https://github.com/zablon-oigo/ticket_app',
         demo:'https://ticket-esd2.onrender.com/'
+
+    },
+    {
+      id:15,
+      title:'Django Web Application',
+      name:'Vote System',
+      image:vote,
+      github:'https://github.com/zablon-oigo/polls_app',
+      demo:'https://polls-app-pwta.onrender.com/'
 
     }
 
