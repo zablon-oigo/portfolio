@@ -16,7 +16,7 @@ function Hero() {
             <h1 className="text-4xl text-center md:text-start sm:text-7xl font-bold text-[#ccd6f6]">Zablon Oigo</h1>
             <h2 className="text-4xl text-center md:text-start sm:text-7xl font-bold text-[#8892b0]">I'm a Full Stack Developer</h2>
             <p className="text-[#8892b0] text-center md:text-start py-4 max-w-[700px]">
-            With a passion for pixels and a fluency in code, I craft web experiences that transcend the ordinary. I'm driven by the thrill of transforming ideas into immersive digital realms that captivate, engage, and inspire.
+            With  passion for pixels and  fluency in code, I craft web experiences that transcend the ordinary. I'm driven by the thrill of transforming ideas into immersive digital realms that captivate, engage, and inspire.
             Let's embark on a journey together to forge your unique digital presence. Are you ready to create something extraordinary?
         </p>
              <div className="flex justify-center md:justify-start">
