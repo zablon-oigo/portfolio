@@ -45,13 +45,13 @@ export default function Navbar() {
 
             </div>
             <section className={`absolute md:hidden left-0 top-[60px] w-full h-screen bg-black z-10 flex flex-col  items-center ease-in duration-700 ${menu ? 'left-0' : 'left-[-100%]'}`}>
-            <ul className="my-16  space-y-8 font-light text-4xl text-[#ccd6f6]">
-                            <li><Link to={'home'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Home</Link></li>
-                            <li><Link to={'about'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">About</Link></li>
-                            <li><Link to={'skills'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Skills</Link></li>
-                            <li><Link to={'projects'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Projects</Link></li>
-                            <li><Link to={'contact'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Contact</Link></li>
-                        </ul>
+            <div className="my-16  space-y-8 flex flex-col items-start justify-center font-light text-4xl text-[#ccd6f6]">
+                            <Link to={'home'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Home</Link>
+                            <Link to={'about'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">About</Link>
+                            <Link to={'skills'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Skills</Link>
+                            <Link to={'projects'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Projects</Link>
+                            <Link to={'contact'} spy={true} smooth={true} onClick={closeMenu} duration={500} className="duration-300 hover:translate-x-1 hover:text-pink-600 cursor-pointer">Contact</Link>
+                        </div>
                         <div className="group">
                         <a href="" className="inline-flex items-center px-6 py-3 rounded bg-white transition duration-300 ease-in group-hover:bg-pink-600" target="_blank">
                             <span className="mr-2 text-gray-800 group-hover:text-white font-medium">Resume</span>
